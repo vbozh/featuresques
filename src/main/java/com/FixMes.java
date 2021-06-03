@@ -2,9 +2,9 @@ package com;
 
 public class FixMes {
 
-    //fixme new fixme in just added file
+    //fixme modified fixme in just added file
 
     public void newCode() {
-
+        //new fixme
     }
 }
