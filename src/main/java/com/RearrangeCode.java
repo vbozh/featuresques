@@ -87,6 +87,11 @@ public class RearrangeCode {
         this.notes = notes;
     }
 
+    private String s = "sss";
+
+    public String getS() { return s;}
+
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
