@@ -13,107 +13,108 @@ public class RearrangeCode {
     private String notes;
     private Collection<Order> ordersById;
 
-    public int getId() {
-        return id;
-    }
+    private final String s = "sss";
 
     public void setId(int id) {
         this.id = id;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public int getId() {
+        return this.id;
     }
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
-    @Override
-    public String toString() {
-        return "RearrangeCode{" +
-                "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", middleName='" + middleName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", phone='" + phone + '\'' +
-                ", email='" + email + '\'' +
-                ", notes='" + notes + '\'' +
-                ", ordersById=" + ordersById +
-                '}';
+    public String getFirstName() {
+        return this.firstName;
     }
 
     private void privateHelperMethod() {
         // does something in here
     }
 
-    public String getMiddleName() {
-        return middleName;
+    @Override
+    public String toString() {
+        return "RearrangeCode{" +
+                "id=" + this.id +
+                ", firstName='" + this.firstName + '\'' +
+                ", middleName='" + this.middleName + '\'' +
+                ", lastName='" + this.lastName + '\'' +
+                ", phone='" + this.phone + '\'' +
+                ", email='" + this.email + '\'' +
+                ", notes='" + this.notes + '\'' +
+                ", ordersById=" + this.ordersById +
+                '}';
     }
 
     public void setMiddleName(String middleName) {
         this.middleName = middleName;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getMiddleName() {
+        return this.middleName;
     }
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
-    public String getPhone() {
-        return phone;
+    public String getLastName() {
+        return this.lastName;
     }
 
     public void setPhone(String phone) {
         this.phone = phone;
     }
 
-    public String getEmail() {
-        return email;
+    public String getPhone() {
+        return this.phone;
     }
 
     public void setEmail(String email) {
         this.email = email;
     }
 
-    public String getNotes() {
-        return notes;
+    public String getEmail() {
+        return this.email;
     }
 
     public void setNotes(String notes) {
         this.notes = notes;
     }
 
-    private String s = "sss";
+    public String getNotes() {
+        return this.notes;
+    }
 
-    public String getS() { return s;}
-
+    public String getS() {
+        return this.s;
+    }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         RearrangeCode that = (RearrangeCode) o;
-        return id == that.id &&
-                Objects.equals(firstName, that.firstName) &&
-                Objects.equals(middleName, that.middleName) &&
-                Objects.equals(lastName, that.lastName) &&
-                Objects.equals(phone, that.phone) &&
-                Objects.equals(email, that.email) &&
-                Objects.equals(notes, that.notes) &&
-                Objects.equals(ordersById, that.ordersById);
+        return this.id == that.id &&
+                Objects.equals(this.firstName, that.firstName) &&
+                Objects.equals(this.middleName, that.middleName) &&
+                Objects.equals(this.lastName, that.lastName) &&
+                Objects.equals(this.phone, that.phone) &&
+                Objects.equals(this.email, that.email) &&
+                Objects.equals(this.notes, that.notes) &&
+                Objects.equals(this.ordersById, that.ordersById);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, firstName, middleName, lastName, phone, email, notes, ordersById);
+        return Objects.hash(this.id, this.firstName, this.middleName, this.lastName, this.phone, this.email, this.notes, this.ordersById);
     }
 
     public Collection<Order> getOrdersById() {
-        return ordersById;
+        return this.ordersById;
     }
     public void setOrdersById(Collection<Order> ordersById) {
         this.ordersById = ordersById;
