@@ -7,4 +7,6 @@ public class CodeAnalyzeMe {
     public void foo() {
         Thread.dumpStack();
     }
+
+    //label change
 }
