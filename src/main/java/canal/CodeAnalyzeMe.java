@@ -12,7 +12,7 @@ public class CodeAnalyzeMe {
     }
 
     void method() {
-        System.out.println(string1("str"));
+        System.out.println();
     }
 
     //label change
@@ -22,8 +22,8 @@ public class CodeAnalyzeMe {
         Thread.dumpStack();
     }
 
-    public String string1(String str) {
-        return this.string1(str);
+    public void string1(int x) {
+        if (x > 0) System.out.println("x is positive");
     }
 
 
