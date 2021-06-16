@@ -2,7 +2,7 @@ package com;
 
 public class ReformatCode {
 
-    public void horriblyFormattedMethod() {
+    public static void horriblyFormattedMethod() {
         System.out.println("First line");
         System.out.println("Second line");
         System.out.println("Third line");
@@ -17,4 +17,8 @@ public class ReformatCode {
         }
     }
     //test it
+
+    public static void main(String[] args) {
+        horriblyFormattedMethod();
+    }
 }
