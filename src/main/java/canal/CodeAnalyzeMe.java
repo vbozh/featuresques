@@ -26,5 +26,8 @@ public class CodeAnalyzeMe {
         if (x > 0) System.out.println("x is positive");
     }
 
+    public String process(String value[])[] {
+        return value;
+    }
 
 }
