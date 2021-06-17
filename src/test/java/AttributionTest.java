@@ -18,4 +18,8 @@ class AttributionTest {
     }
 
     //todo
+
+    public String change(String added_lines) {
+        return added_lines;
+    }
 }
