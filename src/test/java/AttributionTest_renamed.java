@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class AttributionTest {
+class AttributionTest_renamed {
 
     @BeforeEach
     public void waitASecond() throws InterruptedException {
