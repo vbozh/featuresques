@@ -2,3 +2,5 @@
 /gradle/wrapper/
 /.idea/sonarlint/
 /build/
+/build/
+/.idea/inspectionProfiles/
