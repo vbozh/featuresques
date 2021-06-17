@@ -1,5 +1,3 @@
-package packageMove;
-
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -12,4 +10,8 @@ class AttributionTest {
     }
 
     //todo
+
+    public String change(String added_lines) {
+        return added_lines;
+    }
 }
