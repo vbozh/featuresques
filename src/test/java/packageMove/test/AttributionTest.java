@@ -1,4 +1,4 @@
-package packageMove;
+package packageMove.test;
 
 public class AttributionTest {
 }
