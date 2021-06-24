@@ -15,4 +15,6 @@ public class CodeAnalyzeMe {
     //test
 
 
+    public CodeAnalyzeMe() {
+    }
 }
