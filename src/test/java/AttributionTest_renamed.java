@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class AttributionTest {
+class AttributionTest_renamed {
 
     @BeforeEach
     public void waitASecond() throws InterruptedException {
@@ -13,5 +13,11 @@ class AttributionTest {
     @Test
     public void test() {
         assertTrue(false);
+    }
+
+    //todo
+
+    public String change(String added_lines) {
+        return added_lines;
     }
 }
