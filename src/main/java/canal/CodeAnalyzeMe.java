@@ -1,10 +1,24 @@
 package canal;
 
+import java.util.Objects;
+
 public class CodeAnalyzeMe {
-    void method() {
+
+    String s;
+    Objects objects;
+    Integer i;
+
+    public CodeAnalyzeMe() {
     }
 
+    void method() {
+        System.out.println();
+    }
+
+    //label change
+
     public void foo() {
+        method();
         Thread.dumpStack();
     }
 
@@ -12,9 +26,8 @@ public class CodeAnalyzeMe {
         if (x > 0) System.out.println("x is positive");
     }
 
-    //test
-
-
-    public CodeAnalyzeMe() {
+    public String process(String value[])[] {
+        return value;
     }
+
 }
