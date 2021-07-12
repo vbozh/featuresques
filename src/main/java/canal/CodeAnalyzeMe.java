@@ -15,11 +15,11 @@ public class CodeAnalyzeMe {
         System.out.println();
     }
 
-    //label change11
+    //label change1112
 
     public void foo() {
         method();
-        Thread.dumpStack();
+        //Thread.dumpStack();
     }
 
     public void string1(int x) {
