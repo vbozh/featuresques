@@ -3,6 +3,7 @@ package com;
 import java.util.Collection;
 import java.util.Objects;
 
+
 public class RearrangeCode {
     private int id;
     private String firstName;
