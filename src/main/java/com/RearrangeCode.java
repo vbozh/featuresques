@@ -14,6 +14,8 @@ public class RearrangeCode {
     private String notes;
     private Collection<Order> ordersById;
 
+    public String test = "Test";
+
     private final String s = "sss";
 
     public void setId(int id) {
@@ -53,6 +55,9 @@ public class RearrangeCode {
     public void setMiddleName(String middleName) {
         this.middleName = middleName;
     }
+
+    //test
+    //olololo
 
     public String getMiddleName() {
         return this.middleName;
