@@ -30,11 +30,4 @@ public class CodeAnalyzeMe {
         return value;
     }
 
-
-
-
-
-
-    public CodeAnalyzeMe() {
-    }
 }
