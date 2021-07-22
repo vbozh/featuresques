@@ -1,14 +1,14 @@
 public final class LicenseInfo {
-    private final String name;
+    private final String re_rename;
     private final String textUrl;
 
-    LicenseInfo(String name, String textUrl) {
-        this.name = name;
+    LicenseInfo(String rename, String textUrl) {
+        this.re_rename = rename;
         this.textUrl = textUrl;
     }
 
     public String getName() {
-        return name;
+        return re_rename;
     }
 
     public String getTextUrl() {
@@ -17,7 +17,7 @@ public final class LicenseInfo {
 
     @Override
     public String toString() {
-        return name;
+        return re_rename;
     }
 
     @Override
@@ -27,14 +27,14 @@ public final class LicenseInfo {
 
         LicenseInfo that = (LicenseInfo) o;
 
-        if (!name.equals(that.name)) return false;
+        if (!re_rename.equals(that.re_rename)) return false;
         return textUrl.equals(that.textUrl);
 
     }
 
     @Override
     public int hashCode() {
-        int result = name.hashCode();
+        int result = re_rename.hashCode();
         result = 31 * result + textUrl.hashCode();
         return result;
     }
