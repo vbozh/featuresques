@@ -1,0 +1,20 @@
+Index: src/test/java/packageMove/test/Test.java
+Index: src/test/java/packageMove/test/Test.java
+Index: src/test/java/packageMove/test/Test.java
+===================================================================
+diff --git a/src/test/java/packageMove/test/Test.java b/src/test/java/packageMove/test/Test.java
+deleted file mode 100644
+--- a/src/test/java/packageMove/test/Test.java	(revision 72cd2bbad050eab0ca323f13fde96a50936501d4)
++++ /dev/null	(revision 72cd2bbad050eab0ca323f13fde96a50936501d4)
+@@ -1,11 +0,0 @@
+-package packageMove.test;
+-
+-import org.junit.jupiter.api.Assertions;
+-
+-public class Test {
+-    @org.junit.jupiter.api.Test
+-    public void vvv() {
+-        Assertions.assertTrue(true);
+-    }
+-
+-}
