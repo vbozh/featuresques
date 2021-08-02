@@ -12,7 +12,7 @@ public final class LicenseInfo {
     }
 
     public String getTextUrl() {
-        return textUrl;
+        return this.textUrl;
     }
 
     @Override
