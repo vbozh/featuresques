@@ -69,18 +69,19 @@ public final class Attribution implements Comparable<Attribution> {
 
     @Override
     public int hashCode() {
-        int result = name.hashCode();
-        result = 31 * result + copyrightNotices.hashCode();
-        result = 31 * result + licensesInfo.hashCode();
-        result = 31 * result + website.hashCode();
-        return result;
-    }
+        public int hashCode () {
+            int result = this.name.hashCode();
+            result = 31 * result + this.copyrightNotices.hashCode();
+            result = 31 * result + this.licensesInfo.hashCode();
+            result = 31 * result + this.website.hashCode();
+            return result;
+        }
 
-    public static class Builder {
-        private final String name;
-        private final List<String> copyrightNotices;
-        private final List<LicenseInfo> licenseInfos;
-        private String website;
+        public static class Builder {
+            private final String name;
+            private final List<String> copyrightNotices;
+            private final List<LicenseInfo> licenseInfos;
+            private String website;
 
         public Builder(String name) {
             this.name = name;
