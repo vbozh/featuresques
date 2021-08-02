@@ -115,7 +115,7 @@ public final class Attribution implements Comparable<Attribution> {
         }
 
         public Attribution build() {
-            return new Attribution(name, copyrightNotices, licenseInfos, website);
+            return new Attribution(this.name, this.copyrightNotices, this.licenseInfos, this.website);
         }
     }
 }
