@@ -19,27 +19,25 @@ public final class Attribution implements Comparable<Attribution> {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public List<String> getCopyrightNotices() {
-        return copyrightNotices;
+        return this.copyrightNotices;
     }
 
     public String getFormattedCopyrightNotices() {
         StringBuilder builder = new StringBuilder();
-        for (String copyrightNotice : copyrightNotices) {
-            builder.append("\n").append(copyrightNotice);
-        }
+        for (String copyrightNotice : this.copyrightNotices) builder.append("\n").append(copyrightNotice);
         return builder.toString().replaceFirst("\n", "");
     }
 
     public List<LicenseInfo> getLicensesInfo() {
-        return licensesInfo;
+        return this.licensesInfo;
     }
 
     public String getWebsite() {
-        return website;
+        return this.website;
     }
 
     @Override
@@ -54,22 +52,18 @@ public final class Attribution implements Comparable<Attribution> {
 
         Attribution that = (Attribution) o;
 
-        if (!name.equals(that.name)) return false;
+        if (!this.name.equals(that.name)) return false;
 
-        for (String copyrightNotice : copyrightNotices) {
+        for (String copyrightNotice : this.copyrightNotices)
             if (!that.copyrightNotices.contains(copyrightNotice)) return false;
-        }
 
-        for (LicenseInfo licenseInfo : licensesInfo) {
-            if (!that.licensesInfo.contains(licenseInfo)) return false;
-        }
+        for (LicenseInfo licenseInfo : this.licensesInfo) if (!that.licensesInfo.contains(licenseInfo)) return false;
 
-        return website.equals(that.website);
+        return this.website.equals(that.website);
     }
 
     @Override
     public int hashCode() {
-        public int hashCode () {
             int result = this.name.hashCode();
             result = 31 * result + this.copyrightNotices.hashCode();
             result = 31 * result + this.licensesInfo.hashCode();
@@ -77,11 +71,11 @@ public final class Attribution implements Comparable<Attribution> {
             return result;
         }
 
-        public static class Builder {
-            private final String name;
-            private final List<String> copyrightNotices;
-            private final List<LicenseInfo> licenseInfos;
-            private String website;
+    public static class Builder {
+        private final String name;
+        private final List<String> copyrightNotices;
+        private final List<LicenseInfo> licenseInfos;
+        private String website;
 
         public Builder(String name) {
             this.name = name;
@@ -91,22 +85,22 @@ public final class Attribution implements Comparable<Attribution> {
         }
 
         public Builder addCopyrightNotice(String notice) {
-            copyrightNotices.add(notice);
+            this.copyrightNotices.add(notice);
             return this;
         }
 
         public Builder addCopyrightNotice(String copyrightHolder, String year) {
-            copyrightNotices.add("Copyright " + year + " " + copyrightHolder);
+            this.copyrightNotices.add("Copyright " + year + " " + copyrightHolder);
             return this;
         }
 
         public Builder addLicense(String name, String textUrl) {
-            licenseInfos.add(new LicenseInfo(name, textUrl));
+            this.licenseInfos.add(new LicenseInfo(name, textUrl));
             return this;
         }
 
         public Builder addLicense(License license) {
-            licenseInfos.add(license.getLicenseInfo());
+            this.licenseInfos.add(license.getLicenseInfo());
             return this;
         }
 
