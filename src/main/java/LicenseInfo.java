@@ -8,7 +8,7 @@ public final class LicenseInfo {
     }
 
     public String getName() {
-        return re_rename;
+        return this.re_rename;
     }
 
     public String getTextUrl() {
@@ -27,15 +27,15 @@ public final class LicenseInfo {
 
         LicenseInfo that = (LicenseInfo) o;
 
-        if (!re_rename.equals(that.re_rename)) return false;
-        return textUrl.equals(that.textUrl);
+        if (!this.re_rename.equals(that.re_rename)) return false;
+        return this.textUrl.equals(that.textUrl);
 
     }
 
     @Override
     public int hashCode() {
-        int result = re_rename.hashCode();
-        result = 31 * result + textUrl.hashCode();
+        int result = this.re_rename.hashCode();
+        result = 31 * result + this.textUrl.hashCode();
         return result;
     }
 }
