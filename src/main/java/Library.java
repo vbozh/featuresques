@@ -65,7 +65,6 @@ public enum Library {
             .setWebsite("https://github.com/ReactiveX/RxAndroid")
             .build()),
 
-    // Networking
     OK_HTTP(new Attribution.Builder("OkHttp")
             .addCopyrightNotice("Copyright 2016 Square, Inc.")
             .addLicense(License.APACHE)
@@ -98,6 +97,6 @@ public enum Library {
     }
 
     public Attribution getAttribution() {
-        return attribution;
+        return this.attribution;
     }
 }
