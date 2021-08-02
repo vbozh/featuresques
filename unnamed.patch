@@ -1,0 +1,33 @@
+Index: src/test/java/AttributionTest_renamed.java
+===================================================================
+diff --git a/src/test/java/AttributionTest_renamed.java b/src/test/java/AttributionTest_renamed.java
+deleted file mode 100644
+--- a/src/test/java/AttributionTest_renamed.java	(revision 8f4f61567409e72eab2176214349a51e95ca8805)
++++ /dev/null	(revision 8f4f61567409e72eab2176214349a51e95ca8805)
+@@ -1,25 +0,0 @@
+-package packageMove;
+-
+-import org.junit.jupiter.api.BeforeEach;
+-import org.junit.jupiter.api.Test;
+-
+-import static org.junit.jupiter.api.Assertions.assertTrue;
+-
+-class AttributionTest_renamed {
+-
+-    @BeforeEach
+-    public void waitASecond() throws InterruptedException {
+-        Thread.sleep(1000);
+-    }
+-
+-    @Test
+-    public void test() {
+-        assertTrue(false);
+-    }
+-
+-    //todo
+-
+-    public String change(String added_lines) {
+-        return added_lines;
+-    }
+-}
+\ No newline at end of file
