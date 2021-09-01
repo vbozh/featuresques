@@ -17,7 +17,7 @@ public final class LicenseInfo {
 
     @Override
     public String toString() {
-        return re_rename;
+        return this.re_rename;
     }
 
     @Override
