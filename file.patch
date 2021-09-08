@@ -1,0 +1,16 @@
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision 72cd2bbad050eab0ca323f13fde96a50936501d4)
++++ b/.idea/compiler.xml	(date 1626950033042)
+@@ -1,6 +1,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="CompilerConfiguration">
+-    <bytecodeTargetLevel target="15" />
+-  </component>
+-</project>
+\ No newline at end of file
