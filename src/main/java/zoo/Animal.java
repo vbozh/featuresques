@@ -8,4 +8,8 @@ public class Animal {
     public void testInstanceMethod() {
         System.out.println("The instance method in Animal");
     }
+
+    public void testLastCommit() {
+        //code author for this method should be shown with a star
+    }
 }
