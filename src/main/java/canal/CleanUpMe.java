@@ -3,6 +3,7 @@ package canal;
 public class CleanUpMe extends GeneralAnalysis {
 
     int foo;
+    
 
     public String[] process(String[] value) {
         return value;
