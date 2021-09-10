@@ -1,6 +1,6 @@
 package canal;
 
-public class CleanUpMe {
+public class CleanUpMe extends GeneralAnalysis {
 
     int foo;
 
@@ -10,5 +10,16 @@ public class CleanUpMe {
 
     void bar() {
         this.foo += 1;
+    }
+
+    int c;
+
+    @Override
+    public String str() {
+        return super.str();
+    }
+
+    void show() {
+        System.out.println("Inside Class B values=" + this.a + " " + this.b + " " + this.c);
     }
 }
