@@ -11,4 +11,6 @@ public class CleanUpMe {
     void bar() {
         this.foo += 1;
     }
+
+    //todo
 }
