@@ -1,3 +1,5 @@
+package codeAnalysis;
+
 public final class LicenseInfo {
     private final String re_rename;
     private final String textUrl;

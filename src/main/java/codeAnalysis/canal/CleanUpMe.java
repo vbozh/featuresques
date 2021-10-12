@@ -1,4 +1,4 @@
-package canal;
+package codeAnalysis.canal;
 
 public class CleanUpMe {
 
