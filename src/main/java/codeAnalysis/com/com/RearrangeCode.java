@@ -1,4 +1,4 @@
-package com;
+package codeAnalysis.com.com;
 
 import java.util.Collection;
 import java.util.Objects;
