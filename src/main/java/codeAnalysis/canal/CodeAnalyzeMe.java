@@ -1,4 +1,4 @@
-package canal;
+package codeAnalysis.canal;
 
 import java.util.Objects;
 
