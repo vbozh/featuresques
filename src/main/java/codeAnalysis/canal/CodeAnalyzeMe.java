@@ -1,5 +1,7 @@
 package codeAnalysis.canal;
 
+import org.jetbrains.annotations.Contract;
+
 import java.util.Objects;
 
 public class CodeAnalyzeMe {
