@@ -111,7 +111,7 @@ public class King extends Piece {
             } else if (state[tempx][tempy].getpiece().getcolor() == this.getcolor())
                 break;
             else {
-                if (state[tempx][tempy].getpiece() instanceof pieces.Bishop || state[tempx][tempy].getpiece() instanceof Queen)
+                if (state[tempx][tempy].getpiece() != null || state[tempx][tempy].getpiece() instanceof Queen)
                     return true;
                 else
                     break;
@@ -126,7 +126,7 @@ public class King extends Piece {
             } else if (state[tempx][tempy].getpiece().getcolor() == this.getcolor())
                 break;
             else {
-                if (state[tempx][tempy].getpiece() instanceof pieces.Bishop || state[tempx][tempy].getpiece() instanceof Queen)
+                if (state[tempx][tempy].getpiece() != null || state[tempx][tempy].getpiece() instanceof Queen)
                     return true;
                 else
                     break;
@@ -141,7 +141,7 @@ public class King extends Piece {
             } else if (state[tempx][tempy].getpiece().getcolor() == this.getcolor())
                 break;
             else {
-                if (state[tempx][tempy].getpiece() instanceof pieces.Bishop || state[tempx][tempy].getpiece() instanceof Queen)
+                if (state[tempx][tempy].getpiece() != null || state[tempx][tempy].getpiece() instanceof Queen)
                     return true;
                 else
                     break;
@@ -156,7 +156,7 @@ public class King extends Piece {
             } else if (state[tempx][tempy].getpiece().getcolor() == this.getcolor())
                 break;
             else {
-                if (state[tempx][tempy].getpiece() instanceof pieces.Bishop || state[tempx][tempy].getpiece() instanceof Queen)
+                if (state[tempx][tempy].getpiece() != null || state[tempx][tempy].getpiece() instanceof Queen)
                     return true;
                 else
                     break;

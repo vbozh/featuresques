@@ -38,7 +38,6 @@ public class RearrangeCode {
         // does something in here
     }
 
-    @Override
     public String toString() {
         return "RearrangeCode{" +
                 "id=" + this.id +
@@ -99,7 +98,6 @@ public class RearrangeCode {
         return this.s;
     }
 
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;

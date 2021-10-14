@@ -17,12 +17,10 @@ public final class LicenseInfo {
         return this.textUrl;
     }
 
-    @Override
     public String toString() {
         return this.re_rename;
     }
 
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof LicenseInfo)) return false;
