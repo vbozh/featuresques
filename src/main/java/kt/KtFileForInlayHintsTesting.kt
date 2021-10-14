@@ -6,5 +6,9 @@ class KtFileForInlayHintsTesting {
         println("Hello, World!")
     }
 
+    fun foo() {
+        //code author is shown
+    }
+
 
 }
