@@ -1,6 +1,6 @@
 package create;
 
-public class Class_0 {
+public class RenamedClass {
     public void foo0() {
     }
 }
