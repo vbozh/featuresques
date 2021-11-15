@@ -1,4 +1,6 @@
 public class Changes {
 
-    //we need changes!
+    public void foo() {
+        return;
+    }
 }
