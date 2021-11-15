@@ -1,4 +1,4 @@
-package pack;
+package codeAnalysis.pack;
 
 public class QooQoo {
 

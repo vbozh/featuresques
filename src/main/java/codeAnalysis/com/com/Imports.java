@@ -1,4 +1,4 @@
-package com;
+package codeAnalysis.com.com;
 
 import java.util.Objects;
 import java.awt.color.ColorSpace;
