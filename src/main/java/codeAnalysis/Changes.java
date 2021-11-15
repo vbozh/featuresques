@@ -2,5 +2,8 @@ package codeAnalysis;
 
 public class Changes {
 
-    //we need changes!
+    private String barr() {
+        return "agggghr!";
+
+    }
 }
