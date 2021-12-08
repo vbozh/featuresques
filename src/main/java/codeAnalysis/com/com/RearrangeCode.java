@@ -14,9 +14,9 @@ public class RearrangeCode {
     private String notes;
     private Collection<Order> ordersById;
 
-    public int getId() {
-        return id;
-    }
+    public String test = "Test";
+
+    private final String s = "sss";
 
     public void setId(int id) {
         this.id = id;
