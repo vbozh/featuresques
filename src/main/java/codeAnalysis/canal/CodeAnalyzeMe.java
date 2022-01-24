@@ -1,4 +1,6 @@
-package canal;
+package codeAnalysis.canal;
+
+import org.jetbrains.annotations.Contract;
 
 import java.util.Objects;
 
@@ -32,4 +34,21 @@ public class CodeAnalyzeMe {
         return value;
     }
 
+
+
+
+
+
+    public CodeAnalyzeMe() {
+    }
+
+    public void string1(int x) {
+        if (x > 0) System.out.println("x is positive");
+    }
+
+    //test
+
+
+    public CodeAnalyzeMe() {
+    }
 }

@@ -1,4 +1,4 @@
-package canal;
+package codeAnalysis.canal;
 
 public class CleanUpMe {
 
@@ -11,4 +11,6 @@ public class CleanUpMe {
     void bar() {
         this.foo += 1;
     }
+
+    //change
 }

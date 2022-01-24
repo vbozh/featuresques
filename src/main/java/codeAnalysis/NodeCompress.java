@@ -1,4 +1,4 @@
-// Huffman Coding in Java
+package codeAnalysis;// codeAnalysis.Huffman Coding in Java
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
@@ -17,7 +17,7 @@ class ImplementComparator implements Comparator<NodeCompress> {
     }
 }
 
-// IMplementing the huffman algorithm
+// Implementing the huffman algorithm
 class Huffman {
     public static void printCode(NodeCompress root, String s) {
         if (root.left == null && root.right == null && Character.isLetter(root.c)) {
@@ -70,7 +70,7 @@ class Huffman {
 
             q.add(f);
         }
-        System.out.println(" Char | Huffman code ");
+        System.out.println(" Char | codeAnalysis.Huffman code ");
         System.out.println("--------------------");
         printCode(root, "");
     }
