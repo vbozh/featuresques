@@ -3,7 +3,7 @@ package zoo;
 public class Animal {
 
     public void animalSound() {
-        System.out.println("The animal makes a sound");
+        System.out.println("The animal makes a sound!");
     }
 
     public void useThat() {
@@ -15,6 +15,10 @@ public class Animal {
     }
 
     public void foo() {
+
+    }
+
+    public void newPieceOfCode(){
 
     }
 }
