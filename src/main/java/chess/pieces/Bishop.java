@@ -11,7 +11,7 @@ import java.util.ArrayList;
  */
 public class Bishop extends Piece {
 
-    //Constructor
+    //Constructor1
     public Bishop(String i, String p, int c) {
         setId(i);
         setPath(p);
