@@ -3,6 +3,7 @@ package zoo;
 public class Animal {
 
     public void animalSound() {
+//        return "Woooff";
         System.out.println("The animal makes a sound!");
     }
 
