@@ -1,5 +1,7 @@
 package kt
 
+import java.sql.DriverManager.println
+
 class KtFileForInlayHintsTesting {
 
     fun main() {
