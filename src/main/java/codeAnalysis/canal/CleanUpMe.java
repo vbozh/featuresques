@@ -13,8 +13,4 @@ public class CleanUpMe {
     }
 
     //change
-
-    public void foo() {
-        for (int i = 0; i < 11; i++) System.out.println(i);
-    }
 }
