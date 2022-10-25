@@ -1,7 +1,5 @@
 package codeAnalysis.canal;
 
-import org.jetbrains.annotations.Contract;
-
 import java.util.Objects;
 
 public class CodeAnalyzeMe {
@@ -15,40 +13,24 @@ public class CodeAnalyzeMe {
     public CodeAnalyzeMe() {
     }
 
+    //label change1112
+
     void method() {
         System.out.println();
     }
-
-    //label change1112
 
     public void foo() {
         method();
         //Thread.dumpStack();
     }
 
-    public void string1(int x) {
-        if (x > 0) System.out.println("x is positive");
-    }
-
     public String[] process(String[] value) {
         return value;
     }
 
-
-
-
-
-
-    public CodeAnalyzeMe() {
-    }
+    //test
 
     public void string1(int x) {
         if (x > 0) System.out.println("x is positive");
-    }
-
-    //test
-
-
-    public CodeAnalyzeMe() {
     }
 }
