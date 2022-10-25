@@ -28,7 +28,6 @@ public class CodeAnalyzeMe {
         return value;
     }
 
-    //test
 
     public void string1(int x) {
         if (x > 0) System.out.println("x is positive");
