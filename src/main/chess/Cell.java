@@ -66,13 +66,8 @@ public class Cell extends JPanel implements Cloneable {
 
     public void removePiece()      //Function to remove a piece from the cell
     {
-        if (this.piece instanceof King) {
-			this.piece = null;
-            this.remove(this.content);
-        } else {
-			this.piece = null;
-            this.remove(this.content);
-        }
+        this.piece = null;
+        this.remove(this.content);
     }
 
 
