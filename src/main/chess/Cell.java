@@ -74,6 +74,7 @@ public class Cell extends JPanel implements Cloneable {
     public Piece getpiece()    //Function to access piece of a particular cell
     {
         return this.piece;
+        //ерусщььуте
     }
 
     public void select()       //Function to mark a cell indicating it's selection
