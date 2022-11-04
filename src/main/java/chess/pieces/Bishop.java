@@ -16,7 +16,7 @@ public class Bishop extends Piece {
         setId(i);
         setPath(p);
         setColor(c);
-        //the small change1
+        //the small change11
     }
 
     //move function defined. It returns a list of all the possible destinations of a Bishop
