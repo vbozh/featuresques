@@ -52,6 +52,8 @@ public class Cell extends JPanel implements Cloneable {
         if (cell.getpiece() != null) setPiece(cell.getpiece().getcopy());
 		else
 			this.piece = null;
+
+        //the comment
     }
 
     public void setPiece(Piece p)    //Function to inflate a cell with a piece
