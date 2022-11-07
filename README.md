@@ -24,7 +24,7 @@ Die Agentur weist täglich auch den Füllstand des Gasspeichers Rehden nahe dem 
 - [item]
 - [todo2]
 - [test]
-- [ ]]
+- [ ]
 - []
 - [gauge]
 - [  ]
