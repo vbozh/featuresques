@@ -52,6 +52,8 @@ public class Cell extends JPanel implements Cloneable {
         if (cell.getpiece() != null) setPiece(cell.getpiece().getcopy());
 		else
 			this.piece = null;
+
+        //the comment
     }
 
     public void setPiece(Piece p)    //Function to inflate a cell with a piece
@@ -64,19 +66,15 @@ public class Cell extends JPanel implements Cloneable {
 
     public void removePiece()      //Function to remove a piece from the cell
     {
-        if (this.piece instanceof King) {
-			this.piece = null;
-            this.remove(this.content);
-        } else {
-			this.piece = null;
-            this.remove(this.content);
-        }
+        this.piece = null;
+        this.remove(this.content);
     }
 
 
     public Piece getpiece()    //Function to access piece of a particular cell
     {
         return this.piece;
+        //the comment
     }
 
     public void select()       //Function to mark a cell indicating it's selection
