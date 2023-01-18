@@ -45,3 +45,12 @@ https://github.com/vbozh/featuresques
 1. the
 1. the112
 1. jfhjdhf
+
+
+| Table    |
+| -------- |
+| ```right|left``` |
+| `right\|left` |
+| <code>right|left</code> |
+| <code>right\|left</code> |
+| `righ&#124;left` |
