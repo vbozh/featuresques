@@ -49,7 +49,7 @@ https://github.com/vbozh/featuresques
 
 | Table    |
 | -------- |
-| ```right|left``` |
+| `right|left` |
 | `right\|left` |
 | <code>right|left</code> |
 | <code>right\|left</code> |
